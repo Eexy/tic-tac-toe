@@ -1,23 +1,23 @@
 package org.example;
 
 public class Move {
-    private final String playerName;
+    private final Player player;
     private final int cell;
 
     private final PlayerSymbol symbol;
 
-    public Move(String playerName, int cell, PlayerSymbol symbol ){
-        this.playerName = playerName;
+    public Move(Player player, int cell, PlayerSymbol symbol ){
+        this.player = player;
         this.cell = cell;
         this.symbol = symbol;
     }
 
-    public String getPlayerName(){
-        return this.playerName;
+    public Player getPlayer(){
+        return this.player;
     }
 
     @Override
     public String toString() {
-        return this.playerName + " : put " + this.symbol.getSymbol() + " in cell " + this.cell;
+        return this.player.getName() + " : put " + this.symbol.getSymbol() + " in cell " + this.cell;
     }
 }
