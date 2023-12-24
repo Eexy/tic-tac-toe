@@ -37,8 +37,16 @@ public class Game {
         }
         System.out.println(this.board.toString());
 
+        if(!this.isWon){
+            System.out.println("Result: draw");
+        }else{
+            System.out.println("Result : " + this.moves.getLast().getPlayerName() + " won");
+        }
+
         this.save();
     }
+
+
 
     public void save(){
         try{

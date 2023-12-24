@@ -12,6 +12,10 @@ public class Move {
         this.symbol = symbol;
     }
 
+    public String getPlayerName(){
+        return this.playerName;
+    }
+
     @Override
     public String toString() {
         return this.playerName + " : put " + this.symbol.getSymbol() + " in cell " + this.cell;
