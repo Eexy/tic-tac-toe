@@ -1,6 +1,9 @@
 package org.example;
 
 
+import org.example.entity.Board;
+import org.example.entity.Player;
+import org.example.entity.PlayerSymbol;
 import org.example.saver.TextSaver;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or

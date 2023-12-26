@@ -1,11 +1,13 @@
 package org.example;
 
+import org.example.entity.Board;
+import org.example.entity.Move;
+import org.example.entity.Player;
 import org.example.saver.Saver;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 import java.util.Scanner;
 
 public class Game {

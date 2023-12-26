@@ -1,4 +1,4 @@
-package org.example;
+package org.example.entity;
 
 public class Board {
     private final char[][] board = new char[3][3];
